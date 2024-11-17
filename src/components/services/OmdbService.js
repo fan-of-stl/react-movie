@@ -3,7 +3,7 @@ import axios from "axios";
 class OmdbService {
   constructor(apikey) {
     this.apikey = apikey;
-    this.baseUrl = "http://www.omdbapi.com/";
+    this.baseUrl = "https://www.omdbapi.com/";
     this.randomMovieTitles = [
         "The Shawshank Redemption", "The Godfather", "The Dark Knight", 
         "Forrest Gump", "Inception", "The Matrix", "Titanic", "Avengers: Endgame", 
